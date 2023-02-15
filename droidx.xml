@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="droidx"
+        fetch="https://github.com/DroidX-UI"
+        sync-j="8"
+        revision="13" />
+
+  <!-- Framework repos -->
+  <project path="frameworks/av" name="frameworks_av" remote="droidx" />
+  <project path="frameworks/base" name="frameworks_base" remote="droidx" />
+
+  <!-- General repos -->
+  <project path="build/make" name="build" remote="droidx">
+     <copyfile src="core/root.mk" dest="Makefile" />
+     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+     <linkfile src="core" dest="build/core" />
+     <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+     <linkfile src="target" dest="build/target" />
+     <linkfile src="tools" dest="build/tools" />  
+  </project>
+  <project path="build/soong" name="build_soong" remote="droidx" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="art" name="art" groups="pdk" remote="droidx" />
+  <project path="bionic" name="bionic" groups="pdk" remote="droidx" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="droidx" />
+
+  <!-- Packages repos -->
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="droidx" />
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="droidx" />
+
+  <!-- Device repos -->
+  <project path="device/droidx/sepolicy" name="device_droidx_sepolicy" remote="droidx" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="droidx" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="droidx" />
+  <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr-legacy-um" remote="droidx" />
+
+  <!-- Hardware repos -->
+  <project path="hardware/droidx/interfaces" name="hardware_droidx_interfaces" remote="droidx" />
+  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="droidx" />
+  
+  <!-- System repos -->
+  <project path="system/core" name="system_core" remote="droidx" />
+  
+  <!-- Vendor repos -->
+  <project path="vendor/droidx" name="vendor_droidx" remote="droidx" />
+  <project path="vendor/qcom/opensource/commonsys/fm" name="vendor_qcom_opensource_fm-commonsys" remote="droidx" />
+  <project path="vendor/support" name="vendor_support" remote="droidx" />
+</manifest>
