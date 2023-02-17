@@ -62,6 +62,7 @@
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/qcom/sdm845/display" />
   <remove-project name="platform/hardware/qcom/gps" />
+  <remove-project name="platform/hardware/libhardware" />
 
   <!-- Packages repos -->
   <remove-project name="platform/packages/apps/Settings" />
