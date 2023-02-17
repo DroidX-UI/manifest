@@ -24,7 +24,7 @@ From root directory of Project, perform following commands in terminal
 ```bash
 $ . build/envsetup.sh
 $ lunch droidx_$device-userdebug
-$ brunch <device_codename>
+$ m bacon
 ```
 ---------------------------------------------------------------------------------------
 
