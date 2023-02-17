@@ -74,5 +74,6 @@
 
   <!-- System repos -->
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/sepolicy" />
 
 </manifest>

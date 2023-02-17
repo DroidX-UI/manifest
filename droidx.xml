@@ -49,6 +49,7 @@
   
   <!-- System repos -->
   <project path="system/core" name="system_core" remote="droidx" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="droidx" />
   
   <!-- Vendor repos -->
   <project path="vendor/droidx" name="vendor_droidx" remote="droidx" />
