@@ -6,6 +6,11 @@
         sync-j="8"
         revision="13" />
 
+  <remote name="gapps"
+        fetch="https://gitlab.com/EvoX"
+        revision="tiramisu" />
+
+
   <!-- external repos -->
   <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" />
 
@@ -53,6 +58,7 @@
   
   <!-- Vendor repos -->
   <project path="vendor/droidx" name="vendor_droidx" remote="droidx" />
+  <project path="vendor/gms" name="vendor_gms" remote="gapps" />
   <project path="vendor/qcom/opensource/commonsys/fm" name="vendor_qcom_opensource_fm-commonsys" remote="droidx" />
   <project path="vendor/support" name="vendor_support" remote="droidx" />
 </manifest>
