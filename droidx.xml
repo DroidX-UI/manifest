@@ -62,4 +62,5 @@
   <project path="vendor/gms" name="vendor_gms" remote="gapps" />
   <project path="vendor/qcom/opensource/commonsys/fm" name="vendor_qcom_opensource_fm-commonsys" remote="droidx" />
   <project path="vendor/support" name="vendor_support" remote="droidx" />
+  <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="droidx" />
 </manifest>
