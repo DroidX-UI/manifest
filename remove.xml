@@ -68,10 +68,12 @@
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/packages/modules/Bluetooth" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/opt/telephony" />
 
   <!-- System repos -->
   <remove-project name="platform/system/core" />

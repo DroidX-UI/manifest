@@ -17,6 +17,7 @@
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="droidx" />
   <project path="frameworks/base" name="frameworks_base" remote="droidx" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="droidx" />
 
   <!-- General repos -->
   <project path="build/make" name="build" remote="droidx">
@@ -40,6 +41,7 @@
   <project path="packages/apps/Customize" name="packages_apps_Customize" remote="droidx" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="droidx" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="droidx" />
+  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="droidx" />
 
   <!-- Device repos -->
   <project path="device/droidx/sepolicy" name="device_droidx_sepolicy" remote="droidx" />
