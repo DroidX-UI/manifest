@@ -42,7 +42,8 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="droidx" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="droidx" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="droidx" />
-
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="droidx" />
+  
   <!-- Device repos -->
   <project path="device/droidx/sepolicy" name="device_droidx_sepolicy" remote="droidx" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="droidx" />
