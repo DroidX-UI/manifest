@@ -56,6 +56,7 @@
   <project path="hardware/droidx/interfaces" name="hardware_droidx_interfaces" remote="droidx" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="droidx" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="droidx" />
+  <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="droidx" />
   
   <!-- System repos -->
   <project path="system/core" name="system_core" remote="droidx" />
