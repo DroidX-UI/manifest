@@ -72,7 +72,7 @@
   <remove-project name="platform/packages/modules/Connectivity" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/apps/Launcher3" />
-  <remove-project name="platform/packages/apps/WallpaperPicker2" /> 
+  <remove-project name="platform/packages/apps/WallpaperPicker2" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />
