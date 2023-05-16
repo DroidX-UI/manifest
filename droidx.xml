@@ -9,19 +9,24 @@
   <remote name="gapps"
         fetch="https://gitlab.com/NRanjan-17"
         revision="13" />
+        
+  <remote name="gms"
+        fetch="https://gitlab.com/adrian-8901"
+        revision="tiramisu" />
 
 
   <!-- external repos -->
   <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="droidx" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="droidx" />
-  <project path="frameworks/base" name="frameworks_base" remote="droidx" />
+  <project path="frameworks/base" name="frameworks_base" remote="droidx" revision="13_r43" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="droidx" />
-  <project path="frameworks/native" name="frameworks_native" remote="droidx" />
+  <project path="frameworks/native" name="frameworks_native" remote="droidx" revision="13_r43" />
   
   <!-- General repos -->
-  <project path="build/make" name="build" remote="droidx">
+  <project path="build/make" name="build" remote="droidx" revision="13_r43">
      <copyfile src="core/root.mk" dest="Makefile" />
      <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
      <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -40,14 +45,15 @@
 
   <!-- Packages repos -->
   <project path="packages/apps/Customize" name="packages_apps_Customize" remote="droidx" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="droidx" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="droidx" revision="13_r43" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="droidx" />
-  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="droidx" />
+  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="droidx" revision="13_r43" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="droidx" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="droidx" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="droidx" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="droidx" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="droidx" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="droidx" />
   
   <!-- Device repos -->
   <project path="device/droidx/sepolicy" name="device_droidx_sepolicy" remote="droidx" />
@@ -68,8 +74,9 @@
   <project path="system/sepolicy" name="system_sepolicy" remote="droidx" />
   
   <!-- Vendor repos -->
-  <project path="vendor/droidx" name="vendor_droidx" remote="droidx" />
+  <project path="vendor/droidx" name="vendor_droidx" remote="droidx" revision="13_r43" />
   <project path="vendor/gapps" name="android_vendor_gapps" remote="gapps" />
+  <project path="vendor/gms" name="vendor_gms" remote="gms" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="droidx" />
   <project path="vendor/support" name="vendor_support" remote="droidx" />
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="droidx" />
