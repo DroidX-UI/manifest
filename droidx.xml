@@ -45,9 +45,9 @@
 
   <!-- Packages repos -->
   <project path="packages/apps/Customize" name="packages_apps_Customize" remote="droidx" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="droidx" revision="13_r43" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="droidx" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="droidx" />
-  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="droidx" revision="13_r43" />
+  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="droidx"/>
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="droidx" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="droidx" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="droidx" />
@@ -74,7 +74,7 @@
   <project path="system/sepolicy" name="system_sepolicy" remote="droidx" />
   
   <!-- Vendor repos -->
-  <project path="vendor/droidx" name="vendor_droidx" remote="droidx" revision="13_r43" />
+  <project path="vendor/droidx" name="vendor_droidx" remote="droidx"/>
   <project path="vendor/gapps" name="android_vendor_gapps" remote="gapps" />
   <project path="vendor/gms" name="vendor_gms" remote="gms" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="droidx" />
