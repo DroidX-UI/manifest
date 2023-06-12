@@ -68,6 +68,7 @@
   <project path="hardware/libhardware" name="hardware_libhardware" remote="droidx" />
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="droidx" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="droidx" />
+  <project path="hardware/motorola" name="hardware_motorola" remote="droidx" />
   
   <!-- System repos -->
   <project path="system/core" name="system_core" remote="droidx" />
