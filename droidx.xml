@@ -45,6 +45,7 @@
   <project path="bootable/recovery" name="bootable_recovery" remote="droidx" />
 
   <!-- Packages repos -->
+  <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="droidx" />
   <project path="packages/apps/Customize" name="packages_apps_Customize" remote="droidx" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="droidx" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="droidx" />
