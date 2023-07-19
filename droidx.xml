@@ -65,6 +65,9 @@
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="droidx" />
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr-legacy-um" remote="droidx" />
 
+  <!-- External repos -->
+  <project path="external/piex" name="external_piex" remote="droidx" />
+
   <!-- Hardware repos -->
   <project path="hardware/droidx/interfaces" name="hardware_droidx_interfaces" remote="droidx" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="droidx" />
