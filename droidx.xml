@@ -57,6 +57,7 @@
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="droidx" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="droidx" />
   <project path="packages/apps/ParallelSpace" name="packages_apps_ParallelSpace" remote="droidx" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="droidx" />
   
   <!-- Device repos -->
   <project path="device/droidx/sepolicy" name="device_droidx_sepolicy" remote="droidx" />

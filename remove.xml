@@ -96,6 +96,7 @@
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />
