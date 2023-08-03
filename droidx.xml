@@ -55,6 +55,7 @@
   <project path="packages/apps/ParallelSpace" name="packages_apps_ParallelSpace" remote="droidx" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="droidx" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="droidx" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="droidx" />
   
   <!-- Device repos -->
   <project path="device/droidx/sepolicy" name="device_droidx_sepolicy" remote="droidx" />
