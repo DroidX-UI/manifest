@@ -80,6 +80,7 @@
   <!-- External repos -->
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/piex" />
+  <remove-project name="platform/external/gptfdisk" />
   
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/qcom/wlan" />

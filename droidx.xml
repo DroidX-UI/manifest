@@ -14,6 +14,8 @@
   <!-- external repos -->
   <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" />
   <project path="external/faceunlock" name="external_faceunlock" remote="droidx" />
+  <project path="external/piex" name="external_piex" remote="droidx" />
+  <project path="external/gptfdisk" name="external_gptfdisk" remote="droidx" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="droidx" />
@@ -63,9 +65,6 @@
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="droidx" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="droidx" />
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr-legacy-um" remote="droidx" />
-
-  <!-- External repos -->
-  <project path="external/piex" name="external_piex" remote="droidx" />
 
   <!-- Hardware repos -->
   <project path="hardware/droidx/interfaces" name="hardware_droidx_interfaces" remote="droidx" />
