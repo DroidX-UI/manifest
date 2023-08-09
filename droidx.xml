@@ -74,6 +74,7 @@
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="droidx" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="droidx" />
   <project path="hardware/motorola" name="hardware_motorola" remote="droidx" />
+  <project path="hardware/lineage/livedisplay" name="hardware_lineage_livedisplay" remote="droidx" />
   
   <!-- System repos -->
   <project path="system/core" name="system_core" remote="droidx" />
