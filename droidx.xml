@@ -59,7 +59,15 @@
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="droidx" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="droidx" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="droidx" />
-  
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="droidx" />
+  <project path="packages/apps/Recorder" name="packages_apps_Recorder" remote="droidx" />
+  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="droidx" />
+  <project path="packages/apps/Etar" name="packages_apps_Etar" remote="droidx" />
+  <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="droidx" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="droidx" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="droidx" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="droidx" />
+
   <!-- Device repos -->
   <project path="device/droidx/sepolicy" name="device_droidx_sepolicy" remote="droidx" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="droidx" />
