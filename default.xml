@@ -1,12 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Aosp Remote -->
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
+
   <default revision="refs/tags/android-13.0.0_r67"
            remote="aosp"
            sync-j="4" />
+
+  <!-- DroidxOs Remote -->
+  <remote name="droidx"
+        fetch="https://github.com/DroidX-UI"
+        sync-j="8"
+        revision="13" />
+
+  <!-- Gitlab Gapp Remote -->
+  <remote name="gms"
+        fetch="https://gitlab.com/NRanjan-17"
+        revision="13" />
+
+  <!-- ArrowOs Github Remote -->
+  <remote  name="arrow"
+          fetch="https://github.com/ArrowOS"
+          revision="arrow-13.1" />
+
+  <!-- LinageOs Github -->
+  <remote  name="lineage"
+          fetch="https://github.com/LineageOS"
+          revision="lineage-20.0" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r67"/>
   <contactinfo bugurl="go/repo-bug" />
@@ -1198,5 +1221,6 @@
   <include name="arrow.xml" />
   <include name="droidx.xml" />
   <include name="lineage.xml" />
-  
+  <include name="hardware.xml" />
+
 </manifest>

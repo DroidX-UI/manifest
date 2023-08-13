@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="droidx"
-        fetch="https://github.com/DroidX-UI"
-        sync-j="8"
-        revision="13" />
-
-  <remote name="gms"
-        fetch="https://gitlab.com/NRanjan-17"
-        revision="13" />
-  
-
   <!-- external repos -->
   <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" />
   <project path="external/faceunlock" name="external_faceunlock" remote="droidx" />
