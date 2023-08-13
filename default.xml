@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Aosp Remote -->
+  <!-- AOSP Remote -->
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
@@ -10,23 +10,23 @@
            remote="aosp"
            sync-j="4" />
 
-  <!-- DroidxOs Remote -->
+  <!-- DroidX-UI Remote -->
   <remote name="droidx"
         fetch="https://github.com/DroidX-UI"
         sync-j="8"
         revision="13" />
 
-  <!-- Gitlab Gapp Remote -->
+  <!-- Gapps Remote -->
   <remote name="gms"
         fetch="https://gitlab.com/NRanjan-17"
         revision="13" />
 
-  <!-- ArrowOs Github Remote -->
+  <!-- ArrowOS Github Remote -->
   <remote  name="arrow"
           fetch="https://github.com/ArrowOS"
           revision="arrow-13.1" />
 
-  <!-- LinageOs Github -->
+  <!-- LinageOS Github -->
   <remote  name="lineage"
           fetch="https://github.com/LineageOS"
           revision="lineage-20.0" />
@@ -1217,10 +1217,10 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
   <!-- END open-source projects -->
  
-  <include name="remove.xml" />
-  <include name="arrow.xml" />
-  <include name="droidx.xml" />
-  <include name="lineage.xml" />
-  <include name="hardware.xml" />
+  <include name="snippets/remove.xml" />
+  <include name="snippets/arrow.xml" />
+  <include name="snippets/droidx.xml" />
+  <include name="snippets/lineage.xml" />
+  <include name="snippets/hardware.xml" />
 
 </manifest>
