@@ -4,6 +4,7 @@
   <!-- external repos -->
   <project path="external/mksh" name="android_external_mksh" remote="arrow" />
   <project path="external/json-c" name="android_external_json-c" remote="arrow" />
+  <project path="external/tinyxml" name="android_external_tinyxml" remote="arrow" />
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="arrow" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="arrow" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="arrow" />
