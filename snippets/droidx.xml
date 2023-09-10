@@ -58,6 +58,7 @@
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="droidx" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="droidx" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="droidx" />
+  <project path="packages/apps/DroidXUIWallpaperStub" name="packages_apps_DroidXUIWallpaperStub" remote="droidx" />
 
   <!-- Device repos -->
   <project path="device/droidx/sepolicy" name="device_droidx_sepolicy" remote="droidx" />
