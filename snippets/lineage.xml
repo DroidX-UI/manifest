@@ -20,6 +20,7 @@
   
   <!-- Vendor Repos -->
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lahaina" remote="lineage" revision="lineage-20.0-legacy-um" />
+  <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" name="android_vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,waipio-vendor" remote="lineage" />
 
   <!-- External Repo -->
   <project path="external/tinycompress" name="android_external_tinycompress" remote="lineage"  revision="lineage-20.0" />
