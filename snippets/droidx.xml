@@ -38,6 +38,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="droidx" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="droidx" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="droidx"/>
+  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="droidx" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="droidx" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="droidx" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="droidx" />
@@ -67,6 +68,7 @@
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="droidx" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="droidx" />
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr-legacy-um" remote="droidx" />
+  <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="droidx" />
 
   <!-- Hardware repos -->
   <project path="hardware/droidx/interfaces" name="hardware_droidx_interfaces" remote="droidx" />
@@ -75,6 +77,7 @@
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="droidx" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="droidx" />
   <project path="hardware/motorola" name="hardware_motorola" remote="droidx" />
+  <project path="hardware/mediatek" name="hardware_mediatek" remote="droidx" />
   <project path="hardware/lineage/livedisplay" name="hardware_lineage_livedisplay" remote="droidx" />
   
   <!-- System repos -->
