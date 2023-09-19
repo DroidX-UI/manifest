@@ -82,6 +82,7 @@
   <remove-project name="platform/external/piex" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/libxml2" />
+  <remove-project name="platform/external/webp" />
   
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/qcom/wlan" />

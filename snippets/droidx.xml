@@ -7,6 +7,7 @@
   <project path="external/piex" name="external_piex" remote="droidx" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="droidx" />
   <project path="external/libxml2" name="external_libxml2" remote="droidx" />
+  <project path="external/webp" name="external_webp" remote="droidx" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="droidx" />
