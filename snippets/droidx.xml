@@ -74,6 +74,7 @@
   <project path="hardware/droidx/interfaces" name="hardware_droidx_interfaces" remote="droidx" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="droidx" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="droidx" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="droidx" />
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="droidx" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="droidx" />
   <project path="hardware/motorola" name="hardware_motorola" remote="droidx" />
