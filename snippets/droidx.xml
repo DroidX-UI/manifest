@@ -84,6 +84,7 @@
   <!-- System repos -->
   <project path="system/core" name="system_core" remote="droidx" />
   <project path="system/sepolicy" name="system_sepolicy" remote="droidx" />
+  <project path="system/libhidl" name="system_libhidl" remote="droidx" />
   <project path="system/qcom" name="system_qcom" remote="droidx" />
   
   <!-- Vendor repos -->
