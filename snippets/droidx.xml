@@ -49,6 +49,7 @@
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="droidx" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="droidx" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="droidx" />
+  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="droidx" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="droidx" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="droidx" />
   <project path="packages/apps/Recorder" name="packages_apps_Recorder" remote="droidx" />
