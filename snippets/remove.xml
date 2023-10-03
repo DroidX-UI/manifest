@@ -81,6 +81,7 @@
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/piex" />
   <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/libxml2" />
   
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/qcom/wlan" />
@@ -120,5 +121,8 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/libhidl" />
+
+  <!-- Tools -->
+  <remove-project name="platform/tools/apksig" />
 
 </manifest>

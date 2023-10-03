@@ -6,6 +6,7 @@
   <project path="external/faceunlock" name="external_faceunlock" remote="droidx" />
   <project path="external/piex" name="external_piex" remote="droidx" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="droidx" />
+  <project path="external/libxml2" name="external_libxml2" remote="droidx" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="droidx" />
@@ -87,6 +88,9 @@
   <project path="system/sepolicy" name="system_sepolicy" remote="droidx" />
   <project path="system/libhidl" name="system_libhidl" remote="droidx" />
   <project path="system/qcom" name="system_qcom" remote="droidx" />
+
+  <!-- Tools -->
+  <project path="tools/apksig" name="tools_apksig" remote="droidx" />
   
   <!-- Vendor repos -->
   <project path="vendor/bcr" name="vendor_bcr" remote="droidx"/>
