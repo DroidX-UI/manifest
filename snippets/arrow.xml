@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- external repos -->
+  <project path="external/mksh" name="android_external_mksh" remote="arrow" />
+  <project path="external/json-c" name="android_external_json-c" remote="arrow" />
+  <project path="external/tinyxml" name="android_external_tinyxml" remote="arrow" />
+  <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="arrow" />
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="arrow" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="arrow" />
+  <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="arrow" />
+  
+  <!-- prebuilt repos -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" clone-depth="1" remote="arrow" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" clone-depth="1" remote="arrow" />
+  <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="arrow" />
+
+  <!-- vendor repos -->
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="arrow" />
+  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="arrow" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="arrow" />
+  <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" remote="arrow"/>
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="arrow" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="arrow" />
+  <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" remote="arrow" />
+
+</manifest>
