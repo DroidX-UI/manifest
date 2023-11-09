@@ -66,6 +66,7 @@
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="droidx" />
   <project path="packages/apps/DroidXUIWallpaperStub" name="packages_apps_DroidXUIWallpaperStub" remote="droidx" />
   <project path="packages/apps/RepainterServicePriv" name="packages_apps_RepainterServicePriv" remote="droidx" />
+  <project path="packages/apps/KeyChain" name="packages_apps_KeyChain" remote="droidx" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="droidx" />
 
   <!-- Device repos -->
