@@ -1,12 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- AOSP Remote -->
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-14.0.0_r12"
            remote="aosp"
            sync-j="4" />
+
+  <!-- DroidX-UI Remote -->
+  <remote name="droidx"
+        fetch="https://github.com/DroidX-UI"
+        sync-j="8"
+        revision="14" />
+
+  <!-- Gapps Remote -->
+  <remote name="gms"
+        fetch="https://gitlab.com/NRanjan-17"
+        revision="14" />
+
+  <!-- ArrowOS Github Remote -->
+  <remote  name="arrow"
+          fetch="https://github.com/ArrowOS"
+          revision="arrow-13.1" />
+
+  <!-- LineageOS Github -->
+  <remote  name="lineage"
+          fetch="https://github.com/LineageOS"
+          revision="lineage-21.0" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-14.0.0_r12"/>
   <contactinfo bugurl="go/repo-bug" />
