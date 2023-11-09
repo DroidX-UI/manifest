@@ -42,6 +42,8 @@
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="droidx"/>
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="droidx" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="droidx" />
+  <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" remote="droidx" />
+  <project path="packages/modules/StatsD" name="packages_modules_StatsD" remote="droidx" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="droidx" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="droidx" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="droidx" />
@@ -90,6 +92,7 @@
   <project path="system/sepolicy" name="system_sepolicy" remote="droidx" />
   <project path="system/libhidl" name="system_libhidl" remote="droidx" />
   <project path="system/qcom" name="system_qcom" remote="droidx" />
+  <project path="system/ca-certificates" name="system_ca-certificates" remote="droidx" />
 
   <!-- Tools -->
   <project path="tools/apksig" name="tools_apksig" remote="droidx" />
