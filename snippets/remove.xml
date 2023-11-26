@@ -114,6 +114,7 @@
   <remove-project name="platform/packages/apps/DocumentsUI" />
   <remove-project name="platform/packages/apps/KeyChain" />
   <remove-project name="platform/packages/providers/MediaProvider" />
+  <remove-project name="platform/packages/providers/TelephonyProvider" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />

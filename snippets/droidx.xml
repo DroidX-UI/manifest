@@ -68,6 +68,7 @@
   <project path="packages/apps/RepainterServicePriv" name="packages_apps_RepainterServicePriv" remote="droidx" />
   <project path="packages/apps/KeyChain" name="packages_apps_KeyChain" remote="droidx" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="droidx" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="droidx" />
 
   <!-- Device repos -->
   <project path="device/droidx/sepolicy" name="device_droidx_sepolicy" remote="droidx" />
