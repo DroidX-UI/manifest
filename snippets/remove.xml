@@ -2,6 +2,7 @@
 <manifest>
 
   <remove-project name="platform/art" />
+  <remove-project name="platform/cts" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
@@ -83,6 +84,7 @@
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/libxml2" />
   <remove-project name="platform/external/webp" />
+  <remove-project name="platform/external/pdfium" />
   
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/qcom/wlan" />

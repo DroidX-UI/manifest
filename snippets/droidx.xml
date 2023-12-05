@@ -8,6 +8,7 @@
   <project path="external/gptfdisk" name="external_gptfdisk" remote="droidx" />
   <project path="external/libxml2" name="external_libxml2" remote="droidx" />
   <project path="external/webp" name="external_webp" remote="droidx" />
+  <project path="external/pdfium" name="external_pdfium" remote="droidx" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="droidx" />
@@ -33,6 +34,7 @@
   <project path="art" name="art" groups="pdk" remote="droidx" />
   <project path="bionic" name="bionic" groups="pdk" remote="droidx" />
   <project path="bootable/recovery" name="bootable_recovery" remote="droidx" />
+  <project path="cts" name="cts" remote="droidx" />
 
   <!-- Packages repos -->
   <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="droidx" />
