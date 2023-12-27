@@ -97,6 +97,7 @@
   <project path="system/libhidl" name="system_libhidl" remote="droidx" />
   <project path="system/qcom" name="system_qcom" remote="droidx" />
   <project path="system/ca-certificates" name="system_ca-certificates" remote="droidx" />
+  <project path="system/netd" name="system_netd" remote="droidx" />
 
   <!-- Tools -->
   <project path="tools/apksig" name="tools_apksig" remote="droidx" />
