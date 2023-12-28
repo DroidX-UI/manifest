@@ -60,8 +60,9 @@
   <!-- Device repos -->
   <project path="device/droidx/sepolicy" name="device_droidx_sepolicy" remote="droidx" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="droidx" />
-  <project path="device/qcom/sepolicy_vndr/sm8450" name="device_qcom_sepolicy_vndr" remote="droidx revision="14-sm8450" />
-  <project path="device/qcom/sepolicy_vndr/sm8550" name="device_qcom_sepolicy_vndr" remote="droidx revision="14-sm8550" />
+  <project path="device/qcom/sepolicy_vndr/sm6225" name="device_qcom_sepolicy_vndr" remote="droidx" revision="14-sm6225" />
+  <project path="device/qcom/sepolicy_vndr/sm8450" name="device_qcom_sepolicy_vndr" remote="droidx" revision="14-sm8450" />
+  <project path="device/qcom/sepolicy_vndr/sm8550" name="device_qcom_sepolicy_vndr" remote="droidx" revision="14-sm8550" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="droidx" />
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr-legacy-um" remote="droidx" />
   <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="droidx" />
