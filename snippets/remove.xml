@@ -88,6 +88,7 @@
   <remove-project name="platform/external/piex" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
   
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/qcom/wlan" />

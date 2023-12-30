@@ -5,6 +5,7 @@
   <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" />
   <project path="external/piex" name="external_piex" remote="droidx" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="droidx" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="droidx" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="droidx" />
