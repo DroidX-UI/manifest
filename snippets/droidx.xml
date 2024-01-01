@@ -89,7 +89,7 @@
   <project path="vendor/bcr" name="vendor_bcr" remote="droidx"/>
   <project path="vendor/droidx" name="vendor_droidx" remote="droidx"/>
   <!--<project path="vendor/gms" name="vendor_gms" remote="gms" />-->
-  <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="droidx" />
+  <project path="vendor/qcom/opensource/commonsys/fm" name="vendor_qcom_opensource_fm-commonsys" remote="droidx" />
   <project path="vendor/support" name="vendor_support" remote="droidx" />
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="droidx" />
   <project path="vendor/qcom/opensource/libfmjni" name="vendor_qcom_opensource_libfmjni" remote="droidx" />
