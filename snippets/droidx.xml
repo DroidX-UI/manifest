@@ -10,6 +10,7 @@
   <project path="external/webp" name="external_webp" remote="droidx" />
   <project path="external/pdfium" name="external_pdfium" remote="droidx" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="droidx" />
+  <project path="external/libcxx" name="external_libcxx" remote="droidx" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="droidx" />

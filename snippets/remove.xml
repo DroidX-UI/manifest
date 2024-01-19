@@ -86,6 +86,7 @@
   <remove-project name="platform/external/webp" />
   <remove-project name="platform/external/pdfium" />
   <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="platform/external/libcxx" />
   
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/qcom/wlan" />
