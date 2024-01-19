@@ -8,6 +8,7 @@
   <project path="external/gptfdisk" name="external_gptfdisk" remote="droidx" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="droidx" />
   <project path="external/cronet" name="external_cronet" remote="droidx" />
+  <project path="external/libcxx" name="external_libcxx" remote="droidx" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="droidx" />
