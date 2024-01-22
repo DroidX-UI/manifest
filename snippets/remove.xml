@@ -101,7 +101,6 @@
 
   <!-- Packages repos -->
   <remove-project name="platform/packages/apps/Settings" />
-  <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/modules/Bluetooth" />
   <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/apps/ThemePicker" />
