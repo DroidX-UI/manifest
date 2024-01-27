@@ -42,7 +42,7 @@
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="droidx" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="droidx"/>
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="droidx" />
-  <!--<project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="droidx" />-->
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="droidx-gitlab" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="droidx" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="droidx" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="droidx" />
@@ -65,9 +65,9 @@
   <!-- Device repos -->
   <project path="device/droidx/sepolicy" name="device_droidx_sepolicy" remote="droidx" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="droidx" />
-  <project path="device/qcom/sepolicy_vndr/sm6225" name="device_qcom_sepolicy_vndr" remote="droidx" revision="14-sm6225" />
   <project path="device/qcom/sepolicy_vndr/sm8450" name="device_qcom_sepolicy_vndr" remote="droidx" revision="14-sm8450" />
   <project path="device/qcom/sepolicy_vndr/sm8550" name="device_qcom_sepolicy_vndr" remote="droidx" revision="14-sm8550" />
+  <project path="device/qcom/sepolicy_vndr/sm6225" name="device_qcom_sepolicy_vndr" remote="droidx" revision="14-sm6225" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="droidx" />
   <project path="device/qcom/sepolicy_vndr/legacy-um" name="device_qcom_sepolicy_vndr-legacy-um" remote="droidx" />
   <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="droidx" />
