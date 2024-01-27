@@ -26,11 +26,6 @@
         fetch="https://gitlab.com/NRanjan-17"
         revision="14" />
 
-  <!-- ArrowOS Github Remote -->
-  <remote  name="arrow"
-          fetch="https://github.com/ArrowOS"
-          revision="arrow-13.1" />
-
   <!-- LineageOS Github -->
   <remote  name="lineage"
           fetch="https://github.com/LineageOS"
