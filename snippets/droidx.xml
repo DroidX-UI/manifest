@@ -87,6 +87,7 @@
   <project path="hardware/mediatek" name="hardware_mediatek" remote="droidx" />
   
   <!-- System repos -->
+  <project path="system/bpf" name="system_bpf" remote="droidx" />
   <project path="system/core" name="system_core" remote="droidx" />
   <project path="system/sepolicy" name="system_sepolicy" remote="droidx" />
   <project path="system/libhidl" name="system_libhidl" remote="droidx" />
@@ -94,6 +95,7 @@
   
   <!-- Vendor repos -->
   <project path="vendor/bcr" name="vendor_bcr" remote="droidx"/>
+  <project path="vendor/certification" name="vendor_certification" remote="droidx-gitlab"/>
   <project path="vendor/droidx" name="vendor_droidx" remote="droidx"/>
   <!--<project path="vendor/gms" name="vendor_gms" remote="gms" />-->
   <project path="vendor/qcom/opensource/commonsys/fm" name="vendor_qcom_opensource_fm-commonsys" remote="droidx" />
