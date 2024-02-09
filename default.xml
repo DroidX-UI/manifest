@@ -16,6 +16,10 @@
         sync-j="8"
         revision="14" />
 
+  <remote name="droidx-devices"
+        fetch="https://github.com/DroidX-UI-Devices"
+        revision="14" />
+
   <remote name="droidx-gitlab"
         fetch="https://gitlab.com/DroidX-UI"
         sync-j="8"
