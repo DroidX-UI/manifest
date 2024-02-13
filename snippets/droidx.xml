@@ -98,6 +98,7 @@
   <project path="vendor/certification" name="vendor_certification" remote="droidx-gitlab"/>
   <project path="vendor/droidx" name="vendor_droidx" remote="droidx"/>
   <project path="vendor/gms" name="vendor_gms" remote="droidx-gitlab" />
+  <project path="vendor/SystemUIClocks" name="vendor_SystemUIClocks" remote="droidx-gitlab" />
   <project path="vendor/qcom/opensource/commonsys/fm" name="vendor_qcom_opensource_fm-commonsys" remote="droidx" />
   <project path="vendor/support" name="vendor_support" remote="droidx" />
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="droidx" />
