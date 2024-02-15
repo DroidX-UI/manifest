@@ -54,7 +54,7 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="droidx" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="droidx" />
   <project path="packages/apps/Recorder" name="packages_apps_Recorder" remote="droidx" />
-  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="droidx" />
+  <project path="packages/apps/Glimpse" name="packages_apps_Glimpse" remote="droidx" />
   <project path="packages/apps/Etar" name="packages_apps_Etar" remote="droidx" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="droidx" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="droidx" />
