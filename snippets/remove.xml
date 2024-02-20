@@ -116,6 +116,7 @@
   <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />
