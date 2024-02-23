@@ -126,7 +126,10 @@
   <remove-project name="platform/frameworks/libs/systemui" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/native" />
-
+  <remove-project name="platform/frameworks/opt/timezonepicker" />
+  <remove-project name="platform/frameworks/opt/calendar" />
+  <remove-project name="platform/frameworks/opt/colorpicker" />
+  
   <!-- System repos -->
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/sepolicy" />
