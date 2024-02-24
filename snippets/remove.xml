@@ -91,6 +91,7 @@
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/cronet" />
   <remove-project name="platform/external/libcxx" />
+  <remove-project name="platform/external/dtc" />
   
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/qcom/wlan" />
