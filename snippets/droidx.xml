@@ -43,6 +43,7 @@
   <project path="packages/apps/Customize" name="packages_apps_Customize" remote="droidx" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="droidx" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="droidx" />
+  <project path="packages/modules/adb" name="packages_modules_adb" remote="droidx"/>
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="droidx"/>
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="droidx" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="droidx-gitlab" />
