@@ -96,6 +96,7 @@
   <project path="system/sepolicy" name="system_sepolicy" remote="droidx" />
   <project path="system/libhidl" name="system_libhidl" remote="droidx" />
   <project path="system/qcom" name="system_qcom" remote="droidx" />
+  <project path="system/update_engine" name="system_update_engine" remote="droidx"  />
   
   <!-- Vendor repos -->
   <project path="vendor/bcr" name="vendor_bcr" remote="droidx"/>
