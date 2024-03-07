@@ -6,7 +6,7 @@ To get started with DroidX-UI, you'll need to get familiar with [Repo](https://s
 To initialize your local repository, use a command like this:
 
 ```bash
-repo init --depth=1 -u https://github.com/DroidX-UI/manifest.git -b 14
+repo init --depth=1 -u https://github.com/DroidX-UI/manifest.git -b 14 --git-lfs
 ```
 
 Then to sync up:
