@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- external repos -->
+  <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" />
+  <project path="external/tinyxml" name="platform/external/tinyxml" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
+  <project path="external/piex" name="external_piex" remote="droidx" />
+  <project path="external/gptfdisk" name="external_gptfdisk" remote="droidx" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="droidx" />
+  <project path="external/cronet" name="external_cronet" remote="droidx-gitlab" />
+  <project path="external/libcxx" name="external_libcxx" remote="droidx" />
+  <project path="external/dtc" name="external_dtc" remote="droidx" />
+
+  <!-- Framework repos -->
+  <project path="frameworks/av" name="frameworks_av" remote="droidx" />
+  <project path="frameworks/base" name="frameworks_base" remote="droidx" />
+  <project path="frameworks/native" name="frameworks_native" remote="droidx" />
+  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="droidx" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="droidx" />
+  <project path="frameworks/opt/colorpicker" name="frameworks_opt_colorpicker" remote="droidx" />
+  <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="droidx" />
+  <project path="frameworks/opt/calendar" name="frameworks_opt_calendar" remote="droidx" />
+  
+  <!-- General repos -->
+  <project path="build/make" name="build" remote="droidx">
+     <copyfile src="core/root.mk" dest="Makefile" />
+     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+     <linkfile src="core" dest="build/core" />
+     <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+     <linkfile src="target" dest="build/target" />
+     <linkfile src="tools" dest="build/tools" />  
+  </project>
+  <project path="build/soong" name="build_soong" remote="droidx" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="art" name="art" groups="pdk" remote="droidx" />
+  <project path="bionic" name="bionic" groups="pdk" remote="droidx" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="droidx" />
+
+  <!-- Packages repos -->
+  <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="droidx" />
+  <project path="packages/apps/Customize" name="packages_apps_Customize" remote="droidx" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="droidx" />
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="droidx" />
+  <project path="packages/modules/adb" name="packages_modules_adb" remote="droidx"/>
+  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="droidx"/>
+  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="droidx" />
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="droidx-gitlab" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="droidx" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="droidx" />
+  <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="droidx" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="droidx" />
+  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="droidx" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="droidx" />
+  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="droidx" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="droidx" />
+  <project path="packages/apps/Recorder" name="packages_apps_Recorder" remote="droidx" />
+  <project path="packages/apps/Glimpse" name="packages_apps_Glimpse" remote="droidx" />
+  <project path="packages/apps/Etar" name="packages_apps_Etar" remote="droidx" />
+  <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="droidx" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="droidx" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="droidx" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="droidx" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="droidx" />
+  <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="droidx" />
+  <project path="packages/apps/DroidXUIWallpaperStub" name="packages_apps_DroidXUIWallpaperStub" remote="droidx" />
+  <project path="packages/apps/RepainterServicePriv" name="packages_apps_RepainterServicePriv" remote="droidx" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="droidx" />
+  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="droidx" />
+
+  <!-- Device repos -->
+  <project path="device/droidx/sepolicy" name="device_droidx_sepolicy" remote="droidx" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="droidx" />
+  <project path="device/qcom/sepolicy_vndr/sm8450" name="device_qcom_sepolicy_vndr" remote="droidx" revision="14-sm8450" />
+  <project path="device/qcom/sepolicy_vndr/sm8550" name="device_qcom_sepolicy_vndr" remote="droidx" revision="14-sm8550" />
+  <project path="device/qcom/sepolicy_vndr/sm6225" name="device_qcom_sepolicy_vndr" remote="droidx" revision="14-sm6225" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="droidx" />
+  <project path="device/qcom/sepolicy_vndr/legacy-um" name="device_qcom_sepolicy_vndr-legacy-um" remote="droidx" />
+  <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="droidx" />
+  <project path="device/samsung_slsi/sepolicy" name="device_samsung_slsi_sepolicy" remote="droidx" />
+
+  <!-- Hardware repos -->
+  <project path="hardware/droidx/interfaces" name="hardware_droidx_interfaces" remote="droidx" />
+  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="droidx" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="droidx" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="droidx" />
+  <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="droidx" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="droidx" />
+  <project path="hardware/motorola" name="hardware_motorola" remote="droidx" />
+  <project path="hardware/mediatek" name="hardware_mediatek" remote="droidx" />
+  
+  <!-- System repos -->
+  <project path="system/bpf" name="system_bpf" remote="droidx" />
+  <project path="system/core" name="system_core" remote="droidx" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="droidx" />
+  <project path="system/libhidl" name="system_libhidl" remote="droidx" />
+  <project path="system/qcom" name="system_qcom" remote="droidx" />
+  <project path="system/update_engine" name="system_update_engine" remote="droidx"  />
+  
+  <!-- Vendor repos -->
+  <project path="vendor/bcr" name="vendor_bcr" remote="droidx"/>
+  <project path="vendor/droidx" name="vendor_droidx" remote="droidx"/>
+  <project path="vendor/droidxOTA" name="vendor_droidxOTA" remote="droidx-devices"/>
+  <project path="vendor/gms" name="vendor_gms" remote="droidx-gitlab" />
+  <project path="vendor/SystemUIClocks" name="vendor_SystemUIClocks" remote="droidx-gitlab" />
+  <project path="vendor/qcom/opensource/commonsys/fm" name="vendor_qcom_opensource_fm-commonsys" remote="droidx" />
+  <project path="vendor/support" name="vendor_support" remote="droidx" />
+  <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="droidx" />
+  <project path="vendor/qcom/opensource/libfmjni" name="vendor_qcom_opensource_libfmjni" remote="droidx" />
+</manifest>
