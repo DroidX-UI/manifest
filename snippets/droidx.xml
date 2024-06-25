@@ -97,6 +97,9 @@
   <project path="hardware/motorola" name="hardware_motorola" remote="droidx" />
   <project path="hardware/mediatek" name="hardware_mediatek" remote="droidx" />
 
+  <!-- Kernel -->
+  <project path="kernel/configs" name="kernel_configs" remote="droidx" />
+
   <!-- Prebuilts -->
   <project path="prebuilts/custom-sdk" name="prebuilts_custom-sdk" remote="droidx"  />
   
