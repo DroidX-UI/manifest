@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <!-- additional repos -->
-  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage"/>
       
   <!-- prebuilt repos -->
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
