@@ -73,6 +73,7 @@
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="droidx" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="droidx" />
   <project path="packages/apps/SimpleSettingsConfig" name="packages_apps_SimpleSettingsConfig" remote="droidx" />
+  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="droidx" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="droidx" />
 
   <!-- Device repos -->
