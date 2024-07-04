@@ -10,6 +10,7 @@
   <project path="external/cronet" name="external_cronet" remote="droidx-gitlab" />
   <project path="external/libcxx" name="external_libcxx" remote="droidx" />
   <project path="external/dtc" name="external_dtc" remote="droidx" />
+  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="droidx" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="droidx" />
