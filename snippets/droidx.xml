@@ -40,7 +40,9 @@
   </project>
   <project path="art" name="art" groups="pdk" remote="droidx" />
   <project path="bionic" name="bionic" groups="pdk" remote="droidx" />
+  <project path="libcore" name="libcore" remote="droidx" />
   <project path="bootable/recovery" name="bootable_recovery" remote="droidx" />
+  <project path="build/release" name="build_release" remote="droidx" />
 
   <!-- Packages repos -->
   <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="droidx" />
@@ -53,6 +55,7 @@
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="droidx" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="droidx-gitlab" />
   <project path="packages/modules/common" name="packages_modules_common" remote="droidx" />
+  <project path="packages/modules/IntentResolver" name="packages_modules_IntentResolver" remote="droidx" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="droidx" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="droidx" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="droidx" />
