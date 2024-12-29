@@ -22,6 +22,11 @@
         fetch="https://gitlab.com/DroidX-UI"
         sync-j="8"
         revision="15" />
+
+  <remote name="droidx-gitea"
+        fetch="https://gitea.com/DroidX-UI"
+        sync-j="8"
+        revision="15" />
   
   <!-- LineageOS Github -->
   <remote  name="lineage"

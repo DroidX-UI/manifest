@@ -134,7 +134,7 @@
   <project path="vendor/droidx" name="vendor_droidx" remote="droidx"/>
   <project path="vendor/prebuilds" name="vendor_prebuilds" remote="droidx"/>
   <project path="vendor/droidxOTA" name="vendor_droidxOTA" remote="droidx-devices"/>
-  <!--<project path="vendor/gms" name="vendor_gms" remote="droidx-gitlab" />-->
+  <project path="vendor/gms" name="vendor_gms" remote="droidx-gitea" />
   <project path="vendor/qcom/opensource/commonsys/fm" name="vendor_qcom_opensource_fm-commonsys" remote="droidx" />
   <project path="vendor/qcom/opensource/core-utils-vendor" name="vendor_qcom_opensource_core-utils-vendor" remote="droidx"/>
   <project path="vendor/support" name="vendor_support" remote="droidx" />
