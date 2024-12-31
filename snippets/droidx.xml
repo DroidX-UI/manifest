@@ -45,7 +45,7 @@
   <project path="bionic" name="bionic" groups="pdk" remote="droidx" />
   <project path="libcore" name="libcore" remote="droidx" />
   <project path="bootable/recovery" name="bootable_recovery" remote="droidx" />
-  <project path="build/release" name="build_release" remote="droidx" />
+  <!--<project path="build/release" name="build_release" remote="droidx" />-->
 
   <!-- Packages repos -->
   <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="droidx" />
