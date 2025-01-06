@@ -97,7 +97,6 @@
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="lineage" groups="qcom,qcom_display,pdk-qcom" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="lineage" groups="qcom,qcom_gps,pdk-qcom" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="lineage" groups="qcom,pdk-qcom" />
-  <project path="hardware/qcom/sdm845/bt" name="platform/hardware/qcom/sdm845/bt" groups="qcom,qcom_sdm845" remote="aosp" revision="refs/tags/android-13.0.0_r75" />
   <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" remote="lineage" groups="qcom,qcom_sdm845" />
   <project path="hardware/qcom/sdm845/gps" name="android_hardware_qcom_sdm845_gps" remote="lineage" groups="qcom,qcom_sdm845" >
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
