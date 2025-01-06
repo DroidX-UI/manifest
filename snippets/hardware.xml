@@ -98,21 +98,19 @@
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="lineage" groups="qcom,qcom_gps,pdk-qcom" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="lineage" groups="qcom,pdk-qcom" />
   <project path="hardware/qcom/sdm845/bt" name="platform/hardware/qcom/sdm845/bt" groups="qcom,qcom_sdm845" remote="aosp" revision="refs/tags/android-13.0.0_r75" />
-  <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="android_hardware_qcom_sdm845_data_ipacfg-mgr" remote="lineage" groups="qcom,qcom_sdm845" >
+  <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" remote="lineage" groups="qcom,qcom_sdm845" />
+  <project path="hardware/qcom/sdm845/gps" name="android_hardware_qcom_sdm845_gps" remote="lineage" groups="qcom,qcom_sdm845" >
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm845/Android.bp" />
   </project>
-  <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" remote="lineage" groups="qcom,qcom_sdm845" />
-  <project path="hardware/qcom/sdm845/gps" name="android_hardware_qcom_sdm845_gps" remote="lineage" groups="qcom,qcom_sdm845" />
   <project path="hardware/qcom/sm7250/display" name="android_hardware_qcom_sm7250_display" remote="lineage" groups="qcom,qcom_sm7250" />
   <project path="hardware/qcom/sm7250/gps" name="android_hardware_qcom_sm7250_gps" remote="lineage" groups="qcom,qcom_sm7250" >
     <linkfile dest="hardware/qcom/sm7250/Android.mk" src="os_pickup.mk" />
     <linkfile dest="hardware/qcom/sm7250/Android.bp" src="os_pickup.bp" />
   </project>
-  <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="android_hardware_qcom_sm8150_data_ipacfg-mgr" remote="lineage" groups="qcom,qcom_sm8150" >
+  <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_sm8150_display" remote="lineage" groups="qcom,qcom_sm8150" />
+  <project path="hardware/qcom/sm8150/gps" name="android_hardware_qcom_sm8150_gps" remote="lineage" groups="qcom,qcom_sm8150" >
     <linkfile dest="hardware/qcom/sm8150/Android.mk" src="os_pickup.mk" />
     <linkfile dest="hardware/qcom/sm8150/Android.bp" src="os_pickup.bp" />
   </project>
-  <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_sm8150_display" remote="lineage" groups="qcom,qcom_sm8150" />
-  <project path="hardware/qcom/sm8150/gps" name="android_hardware_qcom_sm8150_gps" remote="lineage" groups="qcom,qcom_sm8150" />
 </manifest>
