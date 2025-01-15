@@ -23,7 +23,7 @@ From root directory of Project, perform following commands in terminal
 
 ```bash
 $ . build/envsetup.sh
-$ lunch droidx_$device-ap3a-userdebug
+$ lunch droidx_$device-ap4a-userdebug
 $ m bacon
 ```
 ---------------------------------------------------------------------------------------
