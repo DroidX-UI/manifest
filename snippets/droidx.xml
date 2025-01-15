@@ -117,6 +117,7 @@
   
   <!-- System repos -->
   <project path="system/bpf" name="system_bpf" remote="droidx" />
+  <project path="system/chre" name="system_chre" remote="droidx" />
   <project path="system/vold" name="system_vold" remote="droidx" />
   <project path="system/keymaster" name="system_keymaster" remote="droidx" />
   <project path="system/core" name="system_core" remote="droidx" />
