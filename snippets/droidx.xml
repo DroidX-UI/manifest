@@ -86,6 +86,7 @@
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="droidx" />
   <project path="packages/apps/SimpleSettingsConfig" name="packages_apps_SimpleSettingsConfig" remote="droidx" />
   <!--<project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="droidx" />-->
+  <project path="packages/apps/LMOFreeform" name="packages_apps_LMOFreeform" remote="droidx" />
 
   <!-- Device repos -->
   <project path="device/droidx/sepolicy" name="device_droidx_sepolicy" remote="droidx" />
