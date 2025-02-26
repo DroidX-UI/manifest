@@ -20,6 +20,7 @@
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="droidx" />
   <project path="frameworks/base" name="frameworks_base" remote="droidx" />
+  <project path="frameworks/droidx" name="frameworks_droidx" remote="droidx" />
   <project path="frameworks/native" name="frameworks_native" remote="droidx" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="droidx" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="droidx" />
