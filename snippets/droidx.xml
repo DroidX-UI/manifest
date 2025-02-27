@@ -134,6 +134,7 @@
   <project path="system/security" name="system_security" remote="droidx" />
   
   <!-- Vendor repos -->
+  <project path="vendor/certification" name="vendor_certification" remote="droidx" />
   <project path="vendor/droidx" name="vendor_droidx" remote="droidx"/>
   <project path="vendor/prebuilds" name="vendor_prebuilds" remote="droidx"/>
   <project path="vendor/droidxOTA" name="vendor_droidxOTA" remote="droidx-devices"/>
