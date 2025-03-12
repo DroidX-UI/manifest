@@ -2,11 +2,36 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-15.0.0_r21"
            remote="aosp"
            sync-j="4" />
+
+  <!-- DroidX-UI Remote -->
+  <remote name="droidx"
+        fetch="https://github.com/DroidX-UI"
+        sync-j="8"
+        revision="15_v2" />
+  
+  <remote name="droidx-devices"
+        fetch="https://github.com/DroidX-UI-Devices"
+        revision="15" />
+  
+  <remote name="droidx-gitlab"
+        fetch="https://gitlab.com/DroidX-UI"
+        sync-j="8"
+        revision="15_v2" />
+
+  <remote name="droidx-gitea"
+        fetch="https://gitea.com/DroidX-UI"
+        sync-j="8"
+        revision="15_v2" />
+  
+  <!-- LineageOS Github -->
+  <remote  name="lineage"
+          fetch="https://github.com/LineageOS"
+          revision="lineage-22.1" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-15.0.0_r21"/>
   <contactinfo bugurl="go/repo-bug" />
@@ -1061,6 +1086,11 @@
   <project path="trusty/vendor/google/aosp" name="trusty/vendor/google/aosp" groups="trusty,pdk">
     <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
   </project>
+
+  <include name="snippets/remove.xml" />
+  <include name="snippets/droidx.xml" />
+  <include name="snippets/lineage.xml" />
+  <include name="snippets/hardware.xml" />
   <!-- END open-source projects -->
 
 </manifest>
