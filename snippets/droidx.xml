@@ -110,7 +110,7 @@
   <!--<project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="droidx" />-->
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="droidx" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="droidx" />
-  <project path="hardware/motorola" name="hardware_motorola" remote="droidx" />
+  <!--<project path="hardware/motorola" name="hardware_motorola" remote="droidx" />-->
   <project path="hardware/mediatek" name="hardware_mediatek" remote="droidx" />
 
   <!-- Kernel -->
@@ -128,7 +128,7 @@
   <project path="system/media" name="system_media" remote="droidx" />
   <project path="system/sepolicy" name="system_sepolicy" remote="droidx" />
   <project path="system/libhidl" name="system_libhidl" remote="droidx" />
-  <project path="system/qcom" name="system_qcom" remote="droidx" />
+  <!--<project path="system/qcom" name="system_qcom" remote="droidx" />-->
   <project path="system/logging" name="system_logging" remote="droidx" />
   <project path="system/update_engine" name="system_update_engine" remote="droidx"  />
   <project path="system/libziparchive" name="system_libziparchive" remote="droidx" />
