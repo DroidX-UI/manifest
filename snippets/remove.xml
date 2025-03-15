@@ -81,6 +81,7 @@
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/exfatprogs" />
   <remove-project name="platform/external/boringssl" />
+  <remove-project name="platform/external/kotlinc" />
   
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/google/pixel" />

@@ -16,6 +16,7 @@
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="droidx" />
   <project path="external/exfatprogs" name="external_exfatprogs" remote="droidx" />
   <project path="external/boringssl" name="external_boringssl" remote="droidx" />
+  <project path="external/kotlinc" name="external_kotlinc" remote="droidx" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="droidx" />
