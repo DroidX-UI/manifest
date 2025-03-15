@@ -11,6 +11,7 @@
   <remove-project name="platform/build/soong" />
   <!--<remove-project name="platform/build/release" />-->
   <remove-project name="kernel/configs" />
+  <remove-project name="platform/build/blueprint" />
 
 
   <!-- device repos -->
