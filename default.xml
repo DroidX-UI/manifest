@@ -31,7 +31,7 @@
   <!-- LineageOS Github -->
   <remote  name="lineage"
           fetch="https://github.com/LineageOS"
-          revision="lineage-22.1" />
+          revision="lineage-22.2" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-15.0.0_r26"/>
   <contactinfo bugurl="go/repo-bug" />
