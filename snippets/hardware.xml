@@ -82,7 +82,7 @@
   <project path="hardware/qcom-caf/sm8550/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,kailua-vendor" remote="lineage" revision="lineage-22.2-caf-sm8550" />
   <project path="hardware/qcom-caf/sm8550/dataipa" name="android_vendor_qcom_opensource_dataipa" groups="qcom,kailua-vendor" remote="lineage" revision="lineage-22.2-caf-sm8550" />
   <project path="hardware/qcom-caf/sm8550/display" name="android_hardware_qcom_display" groups="qcom" remote="lineage" revision="lineage-22.2-caf-sm8550" />
-  <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,legacy-qcom" remote="lineage" />
+  <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,legacy-qcom" remote="lineage" revision="lineage-22.1" />
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" groups="qcom,waipio-vendor" remote="lineage" />
 
   <!-- Legacy AOSP additions -->
