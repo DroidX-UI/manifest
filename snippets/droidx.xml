@@ -70,7 +70,7 @@
   <project path="packages/services/DeviceAsWebcam" name="packages_services_DeviceAsWebcam" remote="droidx" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="droidx" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="droidx" />
-  <!--<project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="droidx" />-->
+  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="droidx" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="droidx" />
   <project path="packages/apps/Recorder" name="packages_apps_Recorder" remote="droidx" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="droidx" />
